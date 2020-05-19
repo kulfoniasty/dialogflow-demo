@@ -1,2 +1,3 @@
-# dialogflow-demo
-This repo holds all material and code used duding the DEMO of Dialogflow technology
+# Dialogflow - w poszukiwaniu zrozumienia dla języka polskiego
+
+**Zadanie**: Znaleźć narzędzie (docelowo do Chatbota) które zrozumie język polski.
