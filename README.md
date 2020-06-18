@@ -1,15 +1,13 @@
-# Dialogflow - w poszukiwaniu zrozumienia dla języka polskiego
+# Dialogflow - Hey Bot, do you speak Polish?
 
-**Zadanie**: Znaleźć narzędzie (docelowo do Chatbota) które zrozumie język polski.
+**TASK**: Find a tool (a Chatbota) which understands Polish.
 
-## Dostępne technologie
+## Available
 * AWS Alexa
 * Google Dialogflow (https://dialogflow.com)
 * Wit.ai (https://wit.ai)
 
-## Kto zrozumie chrząszcza co brzmi w trzcinie
+## Who is going to understand "chrząszcza co brzmi w trzcinie" (polish proverb)
 
-Tylko:
-* Google i Wit.ai (Facebook)
-
-Dużo z nimi gadamy i używamy, to mieli się kiedy nauczyć.
+Only:
+* Google && Wit.ai (Facebook)

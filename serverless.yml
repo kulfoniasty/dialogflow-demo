@@ -1,0 +1,36 @@
+service:
+  name: fulfillment-service
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true
+    excludeFiles: '**/*.test.ts'
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  region: eu-west-1
+  runtime: nodejs12.x
+  stage: ${opt:stage, 'dev'}
+  memorySize: 128
+  usagePlan:
+    throttle:
+      burstLimit: 200
+      rateLimit: 100
+  apiKeys:
+    - fulfillment-${opt:stage}
+  environment:
+    AWS_NODEJS_CONNECTION_REUSE_ENABLED: 1
+    STAGE: ${opt:stage}
+functions:
+  fulfill:
+    handler: handler.handle
+    events:
+      - http:
+          method: post
+          path: v1/fulfill
+          cors: true
+          private: true

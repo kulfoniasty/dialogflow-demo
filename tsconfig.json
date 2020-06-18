@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es2018",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": [
+    ".build/**/*",
+    ".idea/**/*",
+    ".serverless/**/*",
+    ".terraform/**/*",
+    ".vscode/**/*",
+    ".webpack/**/*",
+    "_warmup/**/*",
+    "build/**/*",
+    "coverage/**/*",
+    "node_modules/**/*"
+  ]
+}
