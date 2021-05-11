@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "aws-sdk": "^2.700.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "source-map-support": "^0.5.19"
   },
   "devDependencies": {
