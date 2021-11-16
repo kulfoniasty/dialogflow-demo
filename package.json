@@ -8,7 +8,7 @@
     "offline": "sls offline"
   },
   "dependencies": {
-    "aws-sdk": "^2.700.0",
+    "aws-sdk": "^2.814.0",
     "lodash": "^4.17.19",
     "source-map-support": "^0.5.19"
   },
